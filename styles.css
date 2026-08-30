@@ -1,0 +1,106 @@
+/**
+ * CSS fyrir sýnilausn á verkefni 2.
+ * Heldur einfalt en notar grunn CSS og flexbox.
+ * _Ekki_ skalanlegt.
+ */
+
+/**
+ * Fjarlægja gefið margin og padding af öllu.
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Setja border-box á öll element
+ * => reiknum stærð box sem width + margin
+ * padding + border ekki inní því.
+ */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/**
+ * Hjálpar class sem felur sjónrænt það sem
+ * skjálesarar lesa.
+ */
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/** Letur **/
+
+/* TODO setja inn letur */
+
+/**
+ * Lætur myndir aldrei taka meira pláss en
+ * foreldri skilgreinir.
+ */
+img {
+  max-width: 100%;
+}
+
+/**
+ * Litur á hlekkjum erfist frá foreldri
+ */
+a {
+  color: inherit;
+}
+
+/**
+ * Leturstærð erfist frá foreldri í form elements.
+ */
+input,
+button,
+select {
+  font-size: inherit;
+}
+
+body {
+  /* TODO skilgreiningar á letri, grunnstærð, bakgrunn og lit */
+}
+
+/** Haus **/
+
+/* TODO skilgreiningar fyrir haus/header */
+
+/** Valmynd **/
+
+/* TODO skilgreining fyrir nav  */
+
+/** Meginmál **/
+
+/* TODO almennar skilgreiningar fyrir meginmál */
+
+/** Fótur **/
+
+/* TODO skilgreiningar fyrir footer */
+
+/** Flekar / cards á forsíðu **/
+
+/* TODO */
+
+/** Textasíða **/
+
+/* TODO */
+
+/** Töflur **/
+
+/* TODO  */
+
+/** Form **/
+
+/* TODO */
