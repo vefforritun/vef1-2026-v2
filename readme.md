@@ -1,6 +1,6 @@
 # Vefforritun 1, 2026: Verkefni 2, CSS
 
-Útgáfa 0.1.
+Útgáfa 0.2.
 
 ## Markmið
 
@@ -206,6 +206,8 @@ Skilaboð skulu innihalda bæði:
 
 Athugið að það er **ekki nóg** að eingöngu setja athugasemd, skila þarf verkefni sérstaklega. Verkefnum sem ekki er skilað fá ekki einkunn.
 
+Ef skilað er eftir að skilafrestur rennur út mun einkunn vera lækkuð um 10% fyrir hvern dag sem liðinn er frá skilafresti, að hámarki 20% lækkun ef verkefni er skilað á sunnudegi. Eftir það mun verkefnið ekki fá einkunn. Hægt er að fá undanþágu með því að hafa samband við kennara áður en skilafrestur rennur út.
+
 ## Aðstoð
 
 Leyfilegt er að ræða, og vinna saman að verkefni en **skrifið ykkar eigin lausn**. Ef tvær eða fleiri lausnir eru mjög líkar þarf að færa rök fyrir því, annars munu allir hlutaðeigandi hugsanlega fá 0 fyrir verkefnið.
@@ -224,6 +226,7 @@ Nýjustu útgáfu af verkefni má [nálgast á GitHub](https://github.com/veffor
 
 ## Útgáfusaga
 
-| Útgáfa | Lýsing        |
-| ------ | ------------- |
-| 0.1    | Fyrsta útgáfa |
+| Útgáfa | Lýsing                                                      |
+| ------ | ----------------------------------------------------------- |
+| 0.1    | Fyrsta útgáfa                                               |
+| 0.2    | Bæta við um lækkun vegna seinna skila; bæta við `AGENTS.md` |
